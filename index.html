@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!-- lato font from google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<h1>Wikipedia Viewer</h1>
+		<div class="search_input">
+		<form>
+			<input type="text" name="search" id="search" placeholder="What are you looking for?">
+			<button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
+		</form>
+
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random article <i class="fab fa-wikipedia-w"></i></a>
+		</div>
+
+		<ul id="output">
+			
+		</ul>
+
+
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
