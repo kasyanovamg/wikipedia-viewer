@@ -16,22 +16,34 @@
 
 </head>
 <body>
+	<div class="wiki"><a href="https://en.wikipedia.org/" target="_blank"><img src="enwiki.png"></a></div>
 	<div class="container">
-		<h1>Wikipedia Viewer</h1>
+		<h1><i class="fab fa-wikipedia-w"></i>ikipedia Viewer</h1>
 		<div class="search_input">
 		<form>
-			<input type="text" name="search" id="search" placeholder="What are you looking for?">
-			<button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
-		</form>
+			<input type="text" name="search" id="search" placeholder="I'm searching for...">
 
-		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random article <i class="fab fa-wikipedia-w"></i></a>
+
+			<p><button id="search-btn" type="submit">Search</button>
+				<button id="random">Random</button>   
+			</p>
+		</form>		
+		<p class="no-entery"></p>
 		</div>
 
 		<ul id="output">
-			
+		<!-- test li -->
+			<li>
+				<a href=# target='_blank'>Cat</a>
+				<p>The domestic cat (Felis silvestris catus or Felis catus) is a small, typically furry, carnivorous mammal.</p>
+			</li>
+						<li>
+				<a href=# target='_blank'>Catholic Church</a>
+				<p>The Catholic Church, also known as the Roman Catholic Church, is the largest Christian church, with more than 1.29 billion members worldwide.</p>
+			</li>
+		<!-- end of test li -->
+		
 		</ul>
-
-
 	</div>
 	<script src="script.js"></script>
 </body>

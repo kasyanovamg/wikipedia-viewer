@@ -1,11 +1,74 @@
-
+* {
+	margin: 0;
+	padding: 0;
+}
 .container {
-	margin:  50px auto;
+	margin:  0 auto;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-
 }
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	font-size: 50px;
+	margin: 50px auto 20px auto;
+}
+#search {
+	padding: 2px;
+	font-size: 16px;
+}
+button {
+	width: 100px;
+	margin-top: 10px;
+	color: #000;
+  	font-size: 18px;
+  	background: #cccccc;
+  	padding: 4px 6px 4px 6px;
+  	border: solid #6e6e6e 1px;
+  	text-decoration: none;
+  	outline: none;
+}
+button:hover {
+	-webkit-box-shadow: 1px 2px 3px #666666;
+  	-moz-box-shadow: 1px 2px 3px #666666;
+  	box-shadow: 1px 2px 3px #666666;
+}
+ul {
+	width: 80%;
+	list-style-type: none;
+	margin: 30px auto;
+}
+li {
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	text-align: left;
+}
+li:hover {
+	background-color: #ebebeb;
+	-webkit-box-shadow: 1px 2px 3px #666666;
+  	-moz-box-shadow: 1px 2px 3px #666666;
+  	box-shadow: 1px 2px 3px #666666;
+}
+li > p {
+	margin: 6px;
+	text-align: justify;
+}
+li > a {
+	margin: 6px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial;
+}
+.no-entery {
+	margin: 30px;
+}
+.wiki {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 135px;
+	height: 155px;
+	top: 5px;
+	right: 5px;
 }
